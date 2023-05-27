@@ -3,7 +3,7 @@ name: Build and Push Docker Image
 on:
   push:
     branches:
-      - main
+      - master
 
 env:
   ECR_REGISTRY: 009147451403.dkr.ecr.us-east-1.amazonaws.com
